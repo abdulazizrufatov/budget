@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/OFX3-iStock-492595743-1200x800.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.budget-form {
+  margin-bottom: 100px;
+  padding: 16px;
+  border: 2px solid #317b22;
+  border-radius: 5px;
+}
+.budget-input {
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #317b22 !important;
+}
+.form-btn {
+  padding: 6px 12px;
+  border: 1px solid #317b22;
+  background-color: transparent;
+  color: #317b22;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.form-btn:hover {
+  background: #317b22;
+  color: black;
+  transition: 0.4s;
+}
+.expense-form {
+  padding: 16px;
+  border-radius: 5px;
+  border: 2px solid #b80c09;
+}
+
+.expense-input,
+.amount-input {
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #b80c09 !important;
+}
+.expense-btn {
+  padding: 6px 12px;
+  border: 1px solid #b80c09;
+  background-color: transparent;
+  color: #b80c09;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.expense-btn:hover {
+  background: #b80c09;
+  color: white;
+  transition: 0.4s;
+}
+.delet-img {
+  width: 30px;
+  height: 30px;
+}
+
+.expense-desc {
+  color: #b80c09;
+  font-weight: normal;
+  font-size: 25px;
+}
